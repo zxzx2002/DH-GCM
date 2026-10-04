@@ -16,5 +16,6 @@ It contains the P4 program for the data plane implementation of the GCM encrypti
 #### Usage example for gRPC/
 As long as the P4 program in the data plane defines the names of tables and registers, the control plane can use gRPC for cross-plane communication and configuration. For ease of use, we have provided the simplest example. The configuration information for both the data plane and the control plane is pre-defined. By first running text_grpc.p4 on the switch and then opening a new window to run grpc.py, the operation can be completed.
 ### Setup Instructions   
-As for the data plane P4 program, we utilize bf-sde-9.10.0 with Intel Tofino switch.\\
-As for the control plane Python program, we utilize Python 3.8.
+As for the data plane P4 program, we utilize bf-sde-9.10.0 with Intel Tofino switch.    
+As for the control plane Python program, we utilize Python 3.8.    
+As for DPDK testbed， we utilize version 20.11.3.
