@@ -1,4 +1,4 @@
-# DH-GCM
+# FlexGCM
 Source code of FlexGCM.
 ## Paper
 FlexGCM: High-Performance and Flexible GCM Encryption Offloading in Programmable Data Planes
